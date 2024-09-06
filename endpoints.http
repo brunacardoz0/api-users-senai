@@ -1,0 +1,14 @@
+GET http://localhost:3333/
+
+###
+POST http://localhost:3333/users
+Content-Type: application/json
+
+{
+  "name": "Bruna",
+  "senha": "123",
+  "perfil": "adm"
+}
+
+
+
